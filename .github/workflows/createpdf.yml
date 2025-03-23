@@ -18,3 +18,4 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: Resume.pdf
+          name: Resume version ${{ github.ref_name }}
