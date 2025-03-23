@@ -12,7 +12,7 @@ jobs:
           root_file: Resume.tex
       - name: Check pdf file
         run: |
-          file main.pdf | grep -q ' PDF '
+          file Resume.pdf | grep -q ' PDF '
       - name: Upload PDF file
         uses: actions/upload-artifact@v4
         with:
