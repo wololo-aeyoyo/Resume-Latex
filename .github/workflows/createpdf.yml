@@ -10,6 +10,9 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           root_file: Resume.tex
+      - name: Check pdf file
+        run: |
+          file main.pdf | grep -q ' PDF '
       - name: Upload PDF file
         uses: actions/upload-artifact@v4
         with:
