@@ -96,6 +96,7 @@
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
+
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
@@ -116,12 +117,23 @@
 
 %-----------Objective-----------
 \section*{Objective}
-Currently focused on building stable, scalable, and reliable solutions using best practices and design patterns on cloud or on-premise environments, with the goal of improving performance and maintainability.
-
+Building stable, scalable cloud and on-premise solutions that improve performance and maintainability.
+\vspace{-8pt}
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
 \renewcommand{\baselinestretch}{0.5} 
+
+    \resumeSubheading
+      {Technical Support Specialist}{August 2025 – July 2026}
+      {Boston Scientific}{Arden Hills, MN}
+      \begin{itemize}
+      \setlength\itemsep{-0.1em}
+      \item Perform advanced hardware/software troubleshooting, from root cause analysis to stakeholder coordination.
+      \item Delivered high-quality support in a fast-paced environment, balancing multiple cases and priorities.
+      \item Documented troubleshooting steps, configurations, and resolutions to support team knowledge sharing.
+      \item Bilingual (English/Spanish), providing clear communication and support across diverse teams and users.
+      \end{itemize}
 
     \resumeSubheading
       {Reliability Engineer – Observability}{September 2023 – March 2025}
@@ -130,7 +142,7 @@ Currently focused on building stable, scalable, and reliable solutions using bes
       \setlength\itemsep{-0.1em}
       \item Improved and maintained observability tools like Splunk, Elastic, Grafana, VictoriaMetrics, and Graphite.
       \item Contributed to the successful migration of the Splunk Enterprise cluster to the Splunk Cloud solution, this yelled in millions of dollars in yearly cost savings in licensing fees and server cost.
-      \item Developed a process for generating new indexes within the Splunk Cloud environment.This enabled app teams to not be reliant on the regular 2-week deployment cycle where they would need to engage a manual ticketing mechanism.
+      \item Built automation for Splunk Cloud index creation, freeing app teams from the 2-week release cycle.
       \item Frequently worked with Terraform, Chef, and Ansible to provision and configure AWS infrastructure.
       \item Leverage and deployed open-source tooling for network monitoring.
       \end{itemize}
@@ -141,8 +153,8 @@ Currently focused on building stable, scalable, and reliable solutions using bes
       {Accentio Studios}{Remote}
       \begin{itemize}
       \setlength\itemsep{-0.1em}
-      \item Developed a system to manage challenges for the 500 historias app using microservices architecture with NodeJS and NestJs and implemented RabbitMQ as a message broker for asynchronous communication.
-      \item Using Docker to containerize services, ensuring isolation, scalability, and efficient deployment.
+      \item Built challenge management for the 500 historias app with NodeJS/NestJS microservices and RabbitMQ.
+      \item Utilized Docker to containerize services, ensuring isolation, scalability, and efficient deployment.
       \end{itemize}
 
       \resumeSubheading
@@ -150,8 +162,8 @@ Currently focused on building stable, scalable, and reliable solutions using bes
       {Credicard Consortium}{Remote}
       \begin{itemize}
       \setlength\itemsep{-0.1em}
-      \item Built REST APIs using Node.js (NestJS), Spring Boot, and SQL databases, connecting to legacy IBM-DB2 systems.
-      \item Leveraged OpenLdap to build user login authentication services that were successfully scaled to handle thousands of concurrent users.
+      \item Built REST APIs with Node.js (NestJS), Spring Boot, and SQL, connecting to legacy IBM-DB2 systems.
+      \item Built OpenLDAP-based authentication services thatscaled to thousands of concurrent users.
       \item Set up CI/CD pipelines for Android apps with Flutter, saving 4 hours of manual work per release.
       \item Designed a scalable prepaid card payment system using Angular, Node.js, and Spring Boot.
       \end{itemize}
@@ -161,9 +173,10 @@ Currently focused on building stable, scalable, and reliable solutions using bes
       {Telefónica}{Caracas, Venezuela}
       \begin{itemize}
       \setlength\itemsep{-0.1em}
-      \item Optimized billing and interconnection systems using C\#, Java, Struts 2, and SQL Server, cutting Call Detail Records (CDR) file processing time by 50\%.
+      \item Optimized Call Detail records systems in C\#, Java, Struts 2, and SQL Server, cutting CDR processing time by 50\%.
       \end{itemize}
     \resumeItemListEnd
+\vspace{-8pt}
 
 %-----------PROJECTS-----------
 \section{Projects}
